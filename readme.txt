@@ -2,8 +2,8 @@
 cd /tmp
 python -m venv .
 source bin/activate
-git clone https://github.com/aws-samples/service-screener-v2.git
-cd service-screener-v2
+git clone https://github.com/proservices-firstdistribution/service-screener-v2.git
+cd service-screener
 pip install -r requirements.txt
 alias screener="python3 $(pwd)/main.py"
 
